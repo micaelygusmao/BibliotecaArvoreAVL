@@ -1,0 +1,21 @@
+remover() {
+        //o nó é o meu cara?
+            //é
+                //tem filhos?
+                    //sim
+                        //ele tem somente um filho?
+                            //sim
+                                //o nó que tinha ele como filho passar ter o filho dele como filho
+                                    //Obs: lembrar de verificar se o filho dele é menor ou maior
+                                        // para decidir qual lado colocar
+                            //não
+                                //pegar o maior nó da subárvore da esquerda e copiar o valor do substituto para o nó que
+                                // está sendo removido e então remover o substituto da árvore.
+                    //nao
+                        //o nó que tinha ele como filho passa a apontar para null
+            //não é
+                //o valor que estou procurando é maior?
+                    //chama o método novamente passando o próximo nó a direta
+                //o valor que estou procurando é menor?
+                    //chama o método novamente passando o próximo nó a esquerda
+}
